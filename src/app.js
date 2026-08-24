@@ -18,5 +18,4 @@ app.use(express.static("public"))//public bas ek common convention hai, kyunki u
 app.use(cookieparser());//cookieparser middleware ko use karne ka reason ye hai ki jab bhi koi client server
 // ko request bhejta hai, toh uske saath cookies bhi aa sakti hain.
 
-
 export { app }
