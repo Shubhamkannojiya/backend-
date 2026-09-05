@@ -1,5 +1,5 @@
 import multer from "multer" ;
- const storage = multer.diskStorage ({
+ const storage = multer.diskStorage ({ //this provide two option for storage one is diskstorage and memory storage we are using diskstorage
     destination : function (req ,file,cb){
         cb(null ,"./public/temp")
 
